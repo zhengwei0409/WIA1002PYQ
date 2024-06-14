@@ -59,7 +59,7 @@ public class LinkedList<E> {
                 currentNode = currentNode.next;
             }
             if(currentNode != null && currentNode.next != null) {
-                if(currentNode.next.next != null) {
+                if(currentNode. next.next != null) {
                     System.out.println("After " + index + " is " + currentNode.next.element + ". Deleting " + currentNode.next.element);
                     currentNode.next = currentNode.next.next;
                     return true;
