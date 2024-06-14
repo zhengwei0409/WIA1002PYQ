@@ -1,4 +1,4 @@
-package PYQ2018;
+package PYQ2018U;
 
 public class Q2 {
     public static void main(String[] args) {
